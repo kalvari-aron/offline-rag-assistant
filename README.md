@@ -1,6 +1,6 @@
 # Offline RAG Assistant
 
-> 🚧 **Work in progress** – planned completion: October 2026
+> 🚧 **Work in progress** – planned completion: November 2026
 
 A fully local, offline-capable company knowledge assistant. Employees ask questions about internal policies (organizational rules, IT security policy, HR documents) and get answers **with source references** – without any data leaving the company network.
 
@@ -39,8 +39,8 @@ Hardware: NVIDIA RTX 4070 Ti Super (16 GB VRAM), AMD Ryzen 7 7800X3D, 32 GB RAM.
 
 | Model | Score (max 20) | Avg. speed (tokens/s) | Notes |
 |-------|----------------|-----------------------|-------|
-| gemma4:12b | 20 | 1.0 | 144 | Passed both hallucination traps (Q9, Q10) |
-| qwen2.5:14b | 18 | 0.8 | 65 | Lost points on: Q_10 |
+| gemma4:12b | 20 | 1.0 (144) | Passed both hallucination traps (Q9, Q10) |
+| qwen2.5:14b | 18 | 0.8 (65) | Lost points on: Q_10 |
 
 **Decision:** Gemma4:12B - highest accuracy, scored better because of the precise answers. Althought the modell took more time and tokens to answer, it is still the better modell for being a RAG assistant.
 
