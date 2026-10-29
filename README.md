@@ -54,3 +54,5 @@ All documents in this repository belong to a **fictional company ("Példa Kft.")
 - **Week 1:** environment, model selection, Docker setup, document ingestion, RAG pipeline, API
 - **Week 2:** users and roles, Row Level Security, permission-leak tests, chat UI, logging
 - **Week 3:** admin dashboard, evaluation suite, offline test, documentation, demo video
+
+Day 2: PostgreSQL 17 + pgvector 0.8.7 in Docker, bge-m3 embeddings verified (1024 dimensions, semantic similarity sanity check passed).
