@@ -56,3 +56,5 @@ All documents in this repository belong to a **fictional company ("Példa Kft.")
 - **Week 3:** admin dashboard, evaluation suite, offline test, documentation, demo video
 
 Day 2: PostgreSQL 17 + pgvector 0.8.7 in Docker, bge-m3 embeddings verified (1024 dimensions, semantic similarity sanity check passed).
+
+Day 3: Synthetic test dataset (4 policy documents, PDF + DOCX), role-based access matrix, canary facts for leak tests, 25-question evaluation set.

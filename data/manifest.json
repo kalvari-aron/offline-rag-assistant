@@ -1,0 +1,45 @@
+{
+  "roles": {
+    "employee": "Általános munkavállaló - csak a Belső besorolású dokumentumokhoz fér hozzá",
+    "hr": "Emberi Erőforrás Osztály - Belső és HR-es Bizalmas dokumentumok",
+    "admin": "IT Üzemeltetés / rendszergazda - minden dokumentum, valamint az admin felület"
+  },
+  "documents": [
+    {
+      "file": "documents/01_SZMSZ.docx",
+      "doc_id": "PK-SZ-001",
+      "title": "Szervezeti és Működési Szabályzat",
+      "version": "2.1",
+      "effective_date": "2026-01-01",
+      "classification": "Belső",
+      "allowed_roles": ["employee", "hr", "admin"]
+    },
+    {
+      "file": "documents/02_IBSZ.pdf",
+      "doc_id": "PK-IB-001",
+      "title": "Informatikai Biztonsági Szabályzat",
+      "version": "3.0",
+      "effective_date": "2026-03-01",
+      "classification": "Belső",
+      "allowed_roles": ["employee", "hr", "admin"]
+    },
+    {
+      "file": "documents/03_Javadalmazasi_szabalyzat.pdf",
+      "doc_id": "PK-HR-004",
+      "title": "Javadalmazási és Teljesítményértékelési Szabályzat",
+      "version": "1.2",
+      "effective_date": "2026-02-01",
+      "classification": "Bizalmas",
+      "allowed_roles": ["hr", "admin"]
+    },
+    {
+      "file": "documents/04_IT_uzemeltetesi_eljarasrend.docx",
+      "doc_id": "PK-IT-007",
+      "title": "IT Üzemeltetési és Incidenskezelési Eljárásrend",
+      "version": "1.0",
+      "effective_date": "2026-05-15",
+      "classification": "Szigorúan bizalmas",
+      "allowed_roles": ["admin"]
+    }
+  ]
+}
